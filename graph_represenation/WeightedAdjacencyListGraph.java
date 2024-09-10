@@ -35,7 +35,7 @@ public class WeightedAdjacencyListGraph {
         for(int i=0;i<n+1;i++) {
             System.out.println("Nodes connected to "+i+" are : ");
             for(Pair p : adjWtGraph.get(i)) {
-                System.out.println("Node : "+p.node()+" Weight: "+p.weight());
+                System.out.println("Node : "+p.node()+" Weight: "+p.weight()); // instead of getNode() this is replacement
             }
         }
 
