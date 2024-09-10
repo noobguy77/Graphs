@@ -1,0 +1,26 @@
+# Ignore .class files
+*.class
+
+# Ignore other files and folders that are commonly generated
+# by build tools and IDEs
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# VSCode #
+.vscode/
+
+# Maven target folder
+target/
+
+# Gradle build folder
+build/
+
+# Logs
+*.log
+
+# OS generated files #
+.DS_Store
+Thumbs.db
