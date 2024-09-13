@@ -3,12 +3,7 @@ package graph_represenation;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-record Pair(int node, int weight) {
-    @Override
-    public String toString() {
-        return "Node: " + node + ", Weight: " + weight;
-    }
-}
+record Pair(int node, int weight) {}
 
 
 public class WeightedAdjacencyListGraph {
